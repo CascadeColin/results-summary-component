@@ -1,52 +1,189 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(hsl(252, 100%, 67%) , hsl(241, 81%, 54%));
+  border-radius: 0 0 30px 30px;
+  align-items: center;
+  color: hsla(0, 0%, 100%);
+  padding: 20px 0 20px 0;
+}
+
+.scoreHeader {
+  color: hsla(0, 0%, 100%, 0.5);
+}
+
+.scoreCircle {
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
+
+.scoreCircleHeader {
+  font-size: 64px;
+  margin-top: 20px;
+  font-weight: 800;
+  color: hsla(0, 0%, 100%, 0.9);
+}
+
+.scoreCircleText {
+  color: hsla(0, 0%, 100%, 0.5);
+  font-size: 18px;
+}
+
+.scoreGradeHeader {
+  color: hsla(0, 0%, 100%, 0.9);
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.scoreGrade {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.scoreBreakdown {
+  width: 75%;
+  text-align: center;
+  color: hsla(0, 0%, 100%, 0.5);
+}
+
+.summary {
+  padding: 20px;
+}
+
+.summaryHeader {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* Reaction -> or make 1 and add custom data to styledDataArray[] to render correct colors? */
+.summaryCategoryContainer0 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 15px;
+  background: hsl(0, 100%, 67%, 0.05);
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.summaryContentName0 {
+  color: hsl(0, 100%, 67%);
+  font-weight: 700;
+  display: flex;
+}
+
+.summaryContentName0 p {
+  padding-left: 10px;
+}
+
+.summaryScore {
+  color: hsl(0, 0%, 0%, 0.5);
+}
+
+/* Memory */
+.summaryCategoryContainer1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 15px;
+  background: hsl(39, 100%, 56%, 0.05);
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.summaryContentName1 {
+  color: hsl(39, 100%, 56%);
+  font-weight: 700;
+  display: flex;
+}
+
+.summaryContentName1 p {
+  padding-left: 10px;
+}
+
+.summaryScore {
+  color: hsl(0, 0%, 0%, 0.5);
+}
+
+/* Verbal */
+.summaryCategoryContainer2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 15px;
+  background: hsl(166, 100%, 37%, 0.05);
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.summaryContentName2 {
+  color: hsl(166, 100%, 37%);
+  font-weight: 700;
+  display: flex;
+}
+
+.summaryContentName2 p {
+  padding-left: 10px;
+}
+
+.summaryScore {
+  color: hsl(0, 0%, 0%, 0.5);
+}
+
+/* Visual */
+.summaryCategoryContainer3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 15px;
+  background: hsl(234, 85%, 45%, 0.05);
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.summaryContentName3 {
+  color: hsl(234, 85%, 45%);
+  font-weight: 700;
+  display: flex;
+}
+
+.summaryContentName3 p {
+  padding-left: 10px;
+}
+
+.summaryScore {
+  color: hsl(0, 0%, 0%, 0.5);
+}
+
+.continueBtn {
+  padding: 15px;
+  border-radius: 100px;
+  text-align: center;
+  width: 100%;
+  color: hsla(0, 0%, 100%, 0.9);
+  background: hsl(224, 30%, 27%);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-.container {
-  display: flex;
-}
-
-.score {
-  background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
-  border-radius: 20px;
-}
-
-/* Reaction */
-.summaryCategoryContainer0 {
-
-}
-
-.summaryContentName0 {
-
-}
-
-/* Memory */
-.summaryCategoryContainer1 {
-
-}
-
-.summaryContentName1 {
-  
-}
-
-/* Verbal */
-.summaryCategoryContainer2 {
-
-}
-
-.summaryContentName2 {
-  
-}
-
-/* Visual */
-.summaryCategoryContainer3 {
-
-}
-
-.summaryContentName3 {
-  
 }
