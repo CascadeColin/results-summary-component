@@ -6,7 +6,7 @@
 .score {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(hsl(252, 100%, 67%) , hsl(241, 81%, 54%));
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   border-radius: 0 0 30px 30px;
   align-items: center;
   color: hsla(0, 0%, 100%);
@@ -180,10 +180,31 @@
   background: hsl(224, 30%, 27%);
 }
 
+.continueBtn:hover {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 850px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    margin: 100px auto 0 auto;
+  }
+
+  .score {
+    flex:1;
+    border-radius: 30px 30px 30px 30px;
+  }
+  .summary {
+    flex:1;
+  }
 }
