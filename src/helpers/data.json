@@ -2,21 +2,21 @@
   {
     "category": "Reaction",
     "score": 80,
-    "icon": "./results-summary-component/icon-reaction.svg"
+    "icon": "./icon-reaction.svg"
   },
   {
     "category": "Memory",
     "score": 92,
-    "icon": "./results-summary-component/icon-memory.svg"
+    "icon": "./icon-memory.svg"
   },
   {
     "category": "Verbal",
     "score": 61,
-    "icon": "./results-summary-component/icon-verbal.svg"
+    "icon": "./icon-verbal.svg"
   },
   {
     "category": "Visual",
     "score": 72,
-    "icon": "./results-summary-component/icon-visual.svg"
+    "icon": "./icon-visual.svg"
   }
 ]
