@@ -17,8 +17,6 @@ export default function App() {
     return Object.assign(obj, key, summaryContentContainer, summaryContentName);
   });
 
-  console.log(styledDataArray);
-
   return (
     <>
       <main className="container">
