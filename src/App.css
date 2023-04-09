@@ -207,4 +207,8 @@
   .summary {
     flex:1;
   }
+
+  .attribution {
+    margin-top: 20px;
+  }
 }
