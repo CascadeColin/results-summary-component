@@ -5,3 +5,48 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+.container {
+  display: flex;
+}
+
+.score {
+  background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+  border-radius: 20px;
+}
+
+/* Reaction */
+.summaryCategoryContainer0 {
+
+}
+
+.summaryContentName0 {
+
+}
+
+/* Memory */
+.summaryCategoryContainer1 {
+
+}
+
+.summaryContentName1 {
+  
+}
+
+/* Verbal */
+.summaryCategoryContainer2 {
+
+}
+
+.summaryContentName2 {
+  
+}
+
+/* Visual */
+.summaryCategoryContainer3 {
+
+}
+
+.summaryContentName3 {
+  
+}
